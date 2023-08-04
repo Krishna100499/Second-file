@@ -1,0 +1,90 @@
+	just Me. 
+
+only Me
+Student
+
+https://gist.github.com/MohanCloud-stack/32af8ccf466877df654fde3926681827
+
+Automation and CI/CD
+
+
+Continue to Free
+
+
+two ways to upload a File. 
+
+created one Reporsietry
+
+Downlaoded Gitbash and Installed without any changes. 
+
+Branch - Dubicate copy of the Code
+About Git hub- 
+  - Reporsityery means Folder. 
+-	it willl keep our code 
+ - VCS - Version control System ( It will Track our Data and Chnages ) and Moniter
+- GIT is under VCS. ( track and Mointer ) 
+- Git Bub means It is Stored in Cloud 
+- Git and Github is Differnt
+
+- Git is Used In CLI ( Command Line Interface ) 
+
+Area - 
+1.Working area ( Code Local Loaction ) 
+2.staging Area ( In between Working andf Staging Area ) 
+3. Cloud ( Git hub Area ) 
+
+Ctrl+C - Code Exit 
+Code: 
+
+1.git init - ( just intixalaition The Git Process ) 
+	Initialized empty Git repository in F:/Gitup/B50WE/.git/
+2.git remote add origin https://github.com/Krishna100499/github-Learning.git   ( Out Reporsitery folder Will Have this Link )  -Loaction need to paste
+	git remote add origin https://github.com/Krishna100499/github-Learning.git
+3.git remote -v ( origin means origanal )   ( fetch - From where Need to Dowload the Code ) ( Push - Where The code need to paste ) 
+	origin  https://github.com/Krishna100499/github-Learning.git (fetch)
+	origin  https://github.com/Krishna100499/github-Learning.git (push)
+4.git add .   (. all the files in the Folder )  - staging Area
+5.git commit -m "First commit"
+( if login not done - do it - Snap Enclosed in Folder ) 
+
+[master (root-commit) c6aa1ce] First commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 dEMO.txt
+
+6.git branch -M main ( Master to Main ) 
+7.git push origin main ( file will upload ) 
+   fist Tme alone - Sign up Required.
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 240 bytes | 240.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Krishna100499/github-Learning.git
+ * [new branch]      main -> main
+
+--** Password Issue -- ( if Windows not Actvated it will Happen. 
+	- sol
+	- my github profile -> settings -. developer opiton -> personal Acces Token - >  Generate a personal access token  - >note - > Expire - no eprioe - > check all The option - Gerate Token -> 
+
+
+
+
+
+{ Core File }
+{
+git init
+git remote add origin [gitLink] see in your github repository under the push an existing repository from the command line
+git remote -v
+git add .
+git commit -m "First commit"
+git branch -M main
+
+git push origin main
+
+
+in case for the first time
+git config --global user.name "someone"
+git config --global user.email "someone@someplace.com"
+
+git remote set-url origin - error in second stepl only
+
+}
